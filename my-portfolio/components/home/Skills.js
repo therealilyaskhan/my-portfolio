@@ -1,4 +1,19 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
+import ninja from '../../public/svg/ninja.svg';
+import liquid from '../../public/svg/liquid.svg';
+import mui from '../../public/svg/mui.svg';
+import redux from '../../public/svg/redux.svg';
+import sass from '../../public/svg/sass.svg';
+import bootstrap from '../../public/svg/bootstrap.svg';
+import npm from '../../public/svg/npm.svg';
+import github from '../../public/svg/github.svg';
+import next from '../../public/svg/next.svg';
+import react from '../../public/svg/react.svg';
+import figma from '../../public/svg/figma.svg';
+import html from '../../public/svg/html.svg';
+import css from '../../public/svg/css.svg';
+import javascript from '../../public/svg/javascript.svg';
+
 
 export default function Skills() {
   return (
@@ -6,160 +21,118 @@ export default function Skills() {
       <div className="container">
         <div className="skills__content">
           <div data-aos="fade-up" className="skills__title">
-            <div className="skills__title--icon">
-              <Image
-                src="/svg/ninja.svg"
-                height={42}
-                width={42}
-                alt="skills"
-              />
-            </div>
+            <img
+              className="skills__title--icon"
+              src={ninja.src}
+              alt="skills"
+            />
             <div className="skills__title--heading heading--primary">
               I&#39;m Ninja at
             </div>
           </div>
           <div className="skills__cards">
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/html.svg"
-                  height={80}
-                  width={80}
-                  alt="html"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={html.src}
+                alt="html"
+              />
               <div className="skills__card--title">html</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/css.svg"
-                  height={80}
-                  width={80}
-                  alt="css"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={css.src}
+                alt="css"
+              />
               <div className="skills__card--title">css</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/javascript.svg"
-                  height={80}
-                  width={80}
-                  alt="javascript"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={javascript.src}
+                alt="javascript"
+              />
               <div className="skills__card--title">javascript</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/react.svg"
-                  height={80}
-                  width={80}
-                  alt="reactjs"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={react.src}
+                alt="reactjs"
+              />
               <div className="skills__card--title">reactjs</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/next.svg"
-                  height={70}
-                  width={110}
-                  alt="nextjs"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={next.src}
+                alt="nextjs"
+              />
               <div className="skills__card--title">nextjs</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/mui.svg"
-                  height={80}
-                  width={80}
-                  alt="Material-ui"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={mui.src}
+                alt="Material-ui"
+              />
               <div className="skills__card--title">materialui</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/redux.svg"
-                  height={80}
-                  width={80}
-                  alt="redux"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={redux.src}
+                alt="redux"
+              />
               <div className="skills__card--title">redux</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/liquid.svg"
-                  height={80}
-                  width={80}
-                  alt="liquid"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={liquid.src}
+                alt="liquid"
+              />
               <div className="skills__card--title">liquid</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/sass.svg"
-                  height={80}
-                  width={80}
-                  alt="sass"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={sass.src}
+                alt="sass"
+              />
               <div className="skills__card--title">sass</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/github.svg"
-                  height={80}
-                  width={80}
-                  alt="github"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={github.src}
+                alt="github"
+              />
               <div className="skills__card--title">github</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/bootstrap.svg"
-                  height={80}
-                  width={80}
-                  alt="bootstrap"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={bootstrap.src}
+                alt="bootstrap"
+              />
               <div className="skills__card--title">bootstrap</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/figma.svg"
-                  height={80}
-                  width={80}
-                  alt="figma"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={figma.src}
+                alt="figma"
+              />
               <div className="skills__card--title">figma</div>
             </div>
             <div data-aos="fade-up" className="skills__card">
-              <div className="skills__card--icon">
-                <Image
-                  src="/svg/npm.svg"
-                  height={80}
-                  width={80}
-                  alt="npm"
-                />
-              </div>
+              <img
+                className="skills__card--icon"
+                src={npm.src}
+                alt="npm"
+              />
               <div className="skills__card--title">npm</div>
             </div>
           </div>

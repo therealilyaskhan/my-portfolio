@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import Image from 'next/image';
 
 import profilePic from '../../public/img/ilyas-khan.jpg';
 
@@ -9,9 +9,9 @@ export default function Header() {
       <div className="header--content">
         <div className="container">
           <div className="header__img">
-            <Image
+            <img
               className="header__img--img"
-              src={profilePic}
+              src={profilePic.src}
               alt="Muhammad Ilyas"
             />
           </div>

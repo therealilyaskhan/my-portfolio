@@ -1,4 +1,4 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import handbagApp from '../../public/img/handbag-app.png';
 import socialApp from '../../public/img/social-app.png';
 
@@ -13,8 +13,8 @@ export default function Portfolio() {
           <div className="portfolio__cards">
             <div data-aos="zoom-in" className="portfolio__card">
               <div className="portfolio__card__img">
-                <Image
-                  src={socialApp}
+                <img
+                  src={socialApp.src}
                   alt="social application"
                   className="portfolio__card--img"
                 />
@@ -51,8 +51,8 @@ export default function Portfolio() {
             </div>
             <div data-aos="zoom-in" className="portfolio__card">
               <div className="portfolio__card__img">
-                <Image
-                  src={handbagApp}
+                <img
+                  src={handbagApp.src}
                   alt="handbag application"
                   className="portfolio__card--img"
                 />

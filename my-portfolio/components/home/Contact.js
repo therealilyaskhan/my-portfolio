@@ -1,4 +1,4 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import whatsapp from '../../public/svg/whatsapp.svg';
 import email from '../../public/svg/email.svg';
 import ContactForm from '../ContactForm';
@@ -23,27 +23,21 @@ export default function Contact() {
             </div>
             <ul className="contact__discr--list">
               <li data-aos="fade-up" className="contact__discr--list-item">
-                <div className="contact__discr--list-icon">
-                  <Image
-                    src={whatsapp}
-                    alt='whatsapp'
-                    width={22}
-                    height={22}
-                  />
-                </div>
+                <img
+                  className="contact__discr--list-icon"
+                  src={whatsapp.src}
+                  alt='whatsapp'
+                />
                 <div className="contact__discr--list-text paragraph--normal">
                   +923435296396
                 </div>
               </li>
               <li data-aos="fade-up" className="contact__discr--list-item">
-                <div className="contact__discr--list-icon">
-                  <Image
-                    src={email}
-                    alt='hotmail'
-                    width={22}
-                    height={22}
-                  />
-                </div>
+                <img
+                  className="contact__discr--list-icon"
+                  src={email.src}
+                  alt='hotmail'
+                />
                 <div className="contact__discr--list-text paragraph--normal">
                   therealilyaskhan@hotmail.com
                 </div>
