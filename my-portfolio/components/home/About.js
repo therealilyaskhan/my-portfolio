@@ -1,14 +1,14 @@
-import Image from 'next/image';
-import profilePic from '../../public/img/about-photo.jpg';
+import aboutPhoto from '../../public/img/about-photo.jpg';
 
+/* eslint-disable @next/next/no-img-element */
 export default function About() {
   return (
     <section className="about" id="about">
       <div className="container">
         <div data-aos="fade" className="about__card">
           <div className="about__img">
-            <Image
-              src={profilePic}
+            <img
+              src={aboutPhoto.src}
               alt="Muhammad Ilyas"
               className="about__img--img"
             />

@@ -68,7 +68,7 @@ section {
     flex: 5;
     @include respond(phone) {
       width: 15rem;
-      height: 15rem;
+      max-height: 15rem;
       border-radius: 50%;
       overflow: hidden;
       margin: 0 auto;
